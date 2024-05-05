@@ -3,8 +3,8 @@ import requests
 from twilio.rest import Client
 
 api_key = os.environ.get("OWM_API_KEY")
-
-
+OWM_ENDPOINT = "5a7f8530d94fcfdfab59d3e126f8113faa7d4b9e"
+account_sid = "7b0b352e142c62b7e426789bf9bf249afec58157"
 auth_token = os.environ.get("AUTH_TOKEN")
 PARAMETERS = {
     "lat": 47.606209,
